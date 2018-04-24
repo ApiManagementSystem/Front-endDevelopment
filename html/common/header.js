@@ -26,8 +26,6 @@ const html = '<!DOCTYPE html>' +
 path +
 '<script src="./../js/lib/jquery-3.1.1.min.js"></script>' +
 '<script src="./../js/pages/' + cssName + '.js"></script>' +
-'<script src="./../js/module/header.js"></script>' +
-'<script src="./../js/module/footer.js"></script>' +
 '</head>';
 const headerTpl = () => {
     /*
