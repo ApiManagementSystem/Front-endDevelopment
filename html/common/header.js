@@ -13,6 +13,9 @@ for (let i in cssArr) {
   };
 };
 
+path = cssPath + '<link rel="stylesheet" href = "./../css/module/header.css">'
++ '<link rel="stylesheet" href = "./../css/module/footer.css">';
+
 const html = '<!DOCTYPE html>' +
 '<html lang="en">' +
 '<head>' +
@@ -20,7 +23,7 @@ const html = '<!DOCTYPE html>' +
 '<meta http-equiv="X-UA-Compatible" content="IE=edge">' +
 '<meta name="viewport" content="width=device-width, initial-scale=1">' +
 '<title>' + headTitle + '</title>' +
-cssPath +
+path +
 '<script src="../js/lib/jquery-3.1.1.min.js"></script>' +
 '<script src="../js/pages/' + cssName + '.js"></script>' +
 '</head>';
