@@ -24,8 +24,10 @@ const html = '<!DOCTYPE html>' +
 '<meta name="viewport" content="width=device-width, initial-scale=1">' +
 '<title>' + headTitle + '</title>' +
 path +
-'<script src="../js/lib/jquery-3.1.1.min.js"></script>' +
-'<script src="../js/pages/' + cssName + '.js"></script>' +
+'<script src="./../js/lib/jquery-3.1.1.min.js"></script>' +
+'<script src="./../js/pages/' + cssName + '.js"></script>' +
+'<script src="./../js/module/header.js"></script>' +
+'<script src="./../js/module/footer.js"></script>' +
 '</head>';
 const headerTpl = () => {
     /*
